@@ -342,7 +342,9 @@
         },
         "preferences": {
             "key_qualcomm_alternate_mediaprofile": true,
-            "key_qualcomm_alternate_audiopolicy": true
+            "key_qualcomm_alternate_audiopolicy": true,
+            "key_misc_headset_devinput": true,
+            "key_misc_force_a2dp_offload_disable": true
         }
     },   
     {
@@ -359,6 +361,21 @@
         },
         "preferences": {
             "key_misc_force_a2dp_offload_disable": true
+        }
+    },
+    {
+        "match_property": "vendor_fp",
+        "match_value": "lge/caymanlm*",
+        "device_name": "LG Velvet 5G",
+
+        "maintainer": {
+            "name": "dom133"
+        },
+        "community": {
+            "telegram": "https://t.me/velvetcommunity"
+        },
+        "preferences": {
+            "key_misc_rounded_corners": "30"
         }
     }
 ]
