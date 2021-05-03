@@ -186,6 +186,24 @@
     },
     {
         "match_property": "vendor_fp",
+        "match_value": "samsung/d2x.*",
+        "device_name": "Samsung Galaxy Note 10+ 5G",
+
+        "maintainer": {
+            "name": "abun880007",
+            "telegram": "https://t.me/abun880007"
+        },
+        "community": {
+            "telegram": "https://t.me/"
+        },
+        "preferences": {
+            "key_misc_force_navbar_off": false,
+            "key_misc_linear_brightness": true,
+            "key_samsung_high_brightness": true
+        }
+    },
+    {
+        "match_property": "vendor_fp",
         "match_value": "Xiaomi/cepheus.*",
         "device_name": "Xiaomi Mi9",
 
